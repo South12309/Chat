@@ -12,6 +12,7 @@ public class ChatController {
     @FXML
     private TextField messageField;
 
+
     @FXML
     public void sendClick(ActionEvent actionEvent) {
         messageArea.appendText(messageField.getText() + "\n");
